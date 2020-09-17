@@ -4,7 +4,10 @@ class Dog
     @name = name 
   end 
   
-  def name= 
+  def name= (with_name)
+    @name
+  end
+  
   def name
     @name 
   end
