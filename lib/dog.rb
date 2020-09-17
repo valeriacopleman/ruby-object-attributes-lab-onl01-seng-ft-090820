@@ -8,6 +8,12 @@ class Dog
     @name 
   end
   
+  def find(breed)
+    @breed = breed
+  end
   
+  def breed 
+    @breed
+  end
   
 end
