@@ -1,14 +1,15 @@
 class Dog 
   
-  def name= (with_name)
+  def name= (name, breed)
     @name = name
+    @breed = breed 
   end
   
-  def name
-    @name 
+  def name= name 
+    @name = name 
   end
 
-  def find= breed
+  def breed= breed
     @breed = breed
   end
   
