@@ -8,7 +8,7 @@ class Person
     @names = names
   end
   
-  def names
+  def name
     @names
   end
   
