@@ -12,3 +12,4 @@ class Person
     @names
   end
   
+end
