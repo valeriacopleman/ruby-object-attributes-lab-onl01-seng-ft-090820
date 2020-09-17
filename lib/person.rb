@@ -1,11 +1,11 @@
 class Person
   
   def take(names)
-    @name = name 
+    @names = names 
   end
   
-  def name = name 
-    name 
+  def name = names 
+    @names 
   end
   
   
