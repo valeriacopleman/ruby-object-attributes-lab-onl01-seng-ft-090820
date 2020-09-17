@@ -5,7 +5,10 @@ class Person
   end
   
   def name = names 
-    @names 
+    @names = names
   end
   
+  def names
+    @names
+  end
   
