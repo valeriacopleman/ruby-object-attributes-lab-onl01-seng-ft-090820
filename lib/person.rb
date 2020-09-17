@@ -1,6 +1,6 @@
 class Person
   
-  def take(name)
+  def take(names)
     @name = name 
   end
   
