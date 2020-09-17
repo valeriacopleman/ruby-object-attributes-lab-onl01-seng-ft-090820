@@ -1,7 +1,8 @@
 class Dog 
   
-  def initialize(name)
+  def initialize(name, breed)
     @name = name 
+    @breed = breed 
   end 
   
   def name= (with_name)
@@ -11,11 +12,7 @@ class Dog
   def name
     @name 
   end
-  
-  def types(breed)
-    @breed = breed 
-  end 
-  
+
   def find= breed
     @breed = breed
   end
