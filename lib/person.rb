@@ -5,12 +5,12 @@ class Person
     @job = job
   end
   
-  def name= names 
-    @names = names
+  def name= name 
+    @name = name
   end
   
   def name
-    @names
+    @name
   end
   
   def job= job
